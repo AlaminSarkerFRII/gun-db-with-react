@@ -17,9 +17,6 @@ const customStyles = {
 
   Modal.setAppElement('#root');
 
-
-
-
 const Guns = () => {
     const [guns,setGuns] = useState([]);
     const [cart,setCart] = useState ([]);

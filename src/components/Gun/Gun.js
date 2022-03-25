@@ -4,9 +4,7 @@ import {BsFillCartDashFill} from 'react-icons/bs';
 
 const Gun = ({data,handleAddToCart}) => {
     // console.log(props);
-    const {id,name,img,category,price} =data 
-
-   
+    const {name,img,category,price} =data 
     return (
             <div className='card'>
            <div className='gun-img' >
@@ -24,9 +22,6 @@ const Gun = ({data,handleAddToCart}) => {
                    <h5> ${price}</h5>
                    </div>        
         </div>
-
-        
-
     );
 };
 
