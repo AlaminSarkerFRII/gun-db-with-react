@@ -1,0 +1,28 @@
+/* .gun-container{
+    display: grid;
+    grid-template-columns:repeat(3fr 1fr);
+    padding-left:140px;
+    padding-right:140px;
+
+} */
+
+.gun-container img{
+    width:200px;
+    height: 200px;
+}
+
+.card{
+    text-align: center;
+    border: 1px solid gray;
+    box-shadow: 2px 0 4px 0;
+
+}
+
+.cart-icons{
+    font-size: 30px;
+    color:brown;
+    padding:10px;
+    border:none;
+}
+
+

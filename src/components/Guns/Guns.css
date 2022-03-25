@@ -1,0 +1,10 @@
+
+
+.gun-container{
+margin: 50px 0;
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  padding-left:140px;
+    padding-right:140px;
+}
